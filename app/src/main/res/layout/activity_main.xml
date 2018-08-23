@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mjd.month_test.view.MainActivity">
+
+
+            <com.youth.banner.Banner
+                android:id="@+id/main_bannere"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_150"></com.youth.banner.Banner>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="设计师" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hor_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_100"></android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_height="wrap_content"
+                android:text="全部文章" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/ver_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
